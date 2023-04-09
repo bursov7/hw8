@@ -1,0 +1,162 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+h1 {display: inline;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    font-weight: 800;
+}
+
+
+
+
+/* BLOCK STYLES */
+.block1 , .block2 , .block3 { 
+    border-style:solid solid dashed dashed ;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+    margin-bottom: 130px;
+    padding-right: 30px; 
+
+}
+.block1 {
+    background-color: rgb(192, 242, 253);
+    border-color: rgb(85, 163, 173);
+    position: relative; 
+}
+.block2 {
+background-color:rgb(172, 173, 131) ;
+border-color:rgb(75, 71, 58) ;
+position: relative;
+}
+.block3 {
+background-color:rgb(162, 197, 162) ;
+border-color:rgb(25, 54, 25);
+position: relative;
+
+}
+
+
+
+/* H-STYLES */
+
+.h2style {
+    margin: 30px;
+}
+h2 {
+    text-decoration-line: underline;
+}
+
+.h2style1 , .h3style1 , .bigletter1::first-letter{
+    color: rgb(42, 87, 100);
+}
+
+.h2style2 , .h3style2 , .bigletter2::first-letter {
+    color: rgb(105, 97, 80);
+}
+
+.h2style3 , .h3style3 , .bigletter3::first-letter {
+    color:rgb(67, 119, 84) ;
+}
+
+.h3style1 , .h3style2 , .h3style3 {
+    margin:15px 5px 5px 30px;
+    font-weight: 800;
+}
+  
+
+
+/* IMAGES STYLES */
+.bludo1 {
+    position: absolute;
+    top: -100px;
+    right:-125px;
+    width: 250px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: rgb(14, 69, 114);
+}
+
+.bludo2 {
+    position: absolute;
+    top: -80px;
+    right:-125px;
+    width: 250px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: rgb(41, 46, 35);
+}
+
+.bludo3 {
+    position: absolute;
+    top: -90px;
+    right:-125px;
+    width: 250px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: rgb(16, 63, 24);
+}
+
+/* 
+TEXT STYLES */
+
+.ftext {
+    margin-top: 50px;
+    text-decoration: overline;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.description {
+    margin-left: 30px;
+}
+
+.bigletter1::first-letter {
+    font-size: 35px;
+    font-weight: bold;
+}
+.bigletter2::first-letter {
+    font-size: 35px;
+    font-weight: bold;
+}
+.bigletter3::first-letter {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* LISTS STYLES */
+.list {
+    margin: 15px 15px 15px 80px;
+}
+
+.list1 :nth-child(2n) {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: rgb(59, 141, 141);
+}
+
+.list2 :nth-child(2n) {
+    text-decoration-line: underline;
+    text-decoration-style:dashed;
+    color: rgb(83, 82, 62);
+}
+
+.list3 :nth-child(3n) {
+        text-decoration-line: underline;
+        text-decoration-style:wavy;
+        color: rgb(49, 85, 49);
+}
+
